@@ -1,0 +1,11 @@
+Config_ID,Model,Configuration,Val_Accuracy_%,Test_Accuracy_%,Parameters_M,Training_Time_min,Learning_Rate,Batch_Size,Optimizer
+10,BigCNN,BigCNN_SGD_Momentum,72.65,69.28,28.87,73.7,0.01,32,SGD
+5,BetterCNN,BetterCNN_StrongReg,70.41,68.02,9.03,25.9,0.0003,32,AdamW
+4,BetterCNN,BetterCNN_LessAugment,70.13,67.18,9.03,28.4,0.0005,24,AdamW
+9,BigCNN,BigCNN_LessAugment,66.2,64.8,28.87,62.8,0.0005,20,AdamW
+3,BetterCNN,BetterCNN_LargeBatch_OneCycle,66.34,63.81,9.03,25.8,0.001,32,AdamW
+2,BetterCNN,BetterCNN_LowLR_AdamW,65.36,63.39,9.03,27.5,0.0005,16,AdamW
+7,BigCNN,BigCNN_LowLR_AdamW,64.38,62.83,28.87,55.7,0.0005,16,AdamW
+8,BigCNN,BigCNN_HighReg,64.66,62.27,28.87,57.7,0.0003,24,AdamW
+1,BetterCNN,BetterCNN_Baseline,58.77,59.89,9.03,26.6,0.001,16,Adam
+6,BigCNN,BigCNN_Baseline,56.24,53.58,28.87,55.2,0.001,16,Adam
