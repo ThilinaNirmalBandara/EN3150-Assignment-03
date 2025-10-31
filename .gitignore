@@ -2,7 +2,9 @@
 env/
 venv/
 .env/
-
+# Ignore model checkpoints and result files
+*.pth
+*_results.json
 # Jupyter and Python cache
 .ipynb_checkpoints/
 __pycache__/
