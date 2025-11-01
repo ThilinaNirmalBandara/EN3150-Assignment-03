@@ -1,0 +1,2 @@
+model,accuracy,precision_macro,recall_macro,f1_macro
+inceptionresnetv2,0.908835904628331,0.908355598979749,0.9194298610096262,0.9131668082989373
